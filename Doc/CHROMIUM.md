@@ -1,3 +1,4 @@
+## CHROMIUM INSTALLATION 
 **A. In ubuntu home :** root@localhost:~
 > 1. *apt update && apt upgrade -y
 > apt install -y curl wget gnupg ca-certificates software-properties-common

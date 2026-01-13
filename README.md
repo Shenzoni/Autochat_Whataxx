@@ -1,6 +1,7 @@
 ## Legal
 - AGPL-3.0
 - Educational purposes only
+- DISCLAIMER.md
 ## Features
 - Multi-session support
 - Device link login

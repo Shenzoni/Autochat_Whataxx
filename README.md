@@ -1,7 +1,7 @@
 ## Legal
 - AGPL-3.0
 - Educational purposes only
-- [DISCLAIMER](DISCLAIMER.md)
+- [DISCLAIMER](Doc/DISCLAIMER.md)
 ## Features
 - Multi-session support
 - Device link login
@@ -10,5 +10,5 @@
 - License-key based execution
 
 ## INSTALLATION GUIDE 
-- Setup ubuntu on termux [UBUNTU](UBUNTU.md)
-- Chromium installation [CHROMIUM](CHROMIUM.md)
+- Setup ubuntu on termux [UBUNTU](Doc/UBUNTU.md)
+- Chromium installation [CHROMIUM](Doc/CHROMIUM.md)

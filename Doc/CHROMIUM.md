@@ -15,7 +15,7 @@ xdg-utils libasound2t64
 ```
 STEP 2: ``Copy the code then paste on termux``
 ```
-cat <<EOF /etc/apt/sources.list.d/debian-bookworm.list
+cat <<EOF > /etc/apt/sources.list.d/debian-bookworm.list
 deb [signed-by=/usr/share/keyrings/debian-bookworm.gpg] http://deb.debian.org/debian bookworm main contrib non-free non-free-firmware
 EOF
 ```

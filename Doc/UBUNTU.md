@@ -17,6 +17,7 @@ cd cawpauto
 ```
 3. Install nodejs & npm package
 ```
+apt install nodejs
 npm init -y
 npm install whatsapp-web.js qrcode-terminal axios puppeteer-core readline crypto fs
 ```

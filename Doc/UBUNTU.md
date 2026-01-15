@@ -8,34 +8,38 @@ apt update && apt upgrade -y && apt install proot-distro -y && proot-distro inst
 1. Update & Upgrade Ubuntu
 This code for install update and clone my repository
 ```
-apt update -y && apt upgrade -y && apt install git -y
+apt update && apt upgrade -y
+apt install git curl wget ca-certificates gnupg -y
 ```
 2. Clone my repository and open the folder
 ```
 git clone https://github.com/Shenzoni/cawpauto
 cd cawpauto
 ```
-3. Install nodejs & curl package
+3. Install nodejs LTS
 ```
+curl -fsSL https://deb.nodesource.com/setup_lts.x | bash -
 apt install nodejs -y
-apt install -y curl wget gnupg ca-certificates software-properties-common
-apt install -y fonts-liberation \
-libatk-bridge2.0-0t64 libatk1.0-0t64 libgtk-3-0t64 \
-libcups2t64 libdrm2 libgbm1 libnspr4 libnss3 \
-libx11-xcb1 libxcomposite1 libxdamage1 libxrandr2 \
-xdg-utils libasound2t64
 ```
-4. Install npm package
+4. Install puppeteer dependency
 ```
-npm init -y && npm install whatsapp-web.js qrcode-terminal axios puppeteer-core readline crypto fs
+apt install -y \
+fonts-liberation libatk-bridge2.0-0 libatk1.0-0 libcups2 libdrm2 libgbm1 \
+libnspr4 libnss3 libx11-xcb1 libxcomposite1 libxdamage1 libxrandr2 \
+xdg-utils libasound2
 ```
-5. Custom APT Source
+5. Install npm package
+```
+npm init -y
+npm install whatsapp-web.js qrcode-terminal axios puppeteer-core readline crypto fs
+```
+6. Custom APT Source
 ```
 cat <<EOF > /etc/apt/sources.list.d/debian-bookworm.list
 deb [signed-by=/usr/share/keyrings/debian-bookworm.gpg] http://deb.debian.org/debian bookworm main contrib non-free non-free-firmware
 EOF
 ```
-6. Import GPG Debian key
+7. Import GPG Debian key
 ```
 curl -fsSL https://ftp-master.debian.org/keys/archive-key-12.asc \
 | gpg --dearmor -o /usr/share/keyrings/debian-bookworm.gpg

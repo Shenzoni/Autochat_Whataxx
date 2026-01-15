@@ -23,9 +23,9 @@ apt install nodejs -y
 4. Install puppeteer dependency
 ```
 apt install -y \
-fonts-liberation libatk-bridge2.0-0 libatk1.0-0 libcups2 libdrm2 libgbm1 \
+fonts-liberation libatk-bridge2.0-0t64 libatk1.0-0t64 libcups2t64 libdrm2 libgbm1 \
 libnspr4 libnss3 libx11-xcb1 libxcomposite1 libxdamage1 libxrandr2 \
-xdg-utils libasound2
+xdg-utils libasound2t64
 ```
 5. Install npm package
 ```

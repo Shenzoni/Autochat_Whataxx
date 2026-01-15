@@ -1,7 +1,12 @@
 ## CHROMIUM INSTALLATION 
+
+## UBUNTU UPDATE & UPGRADE
+```
+apt update -y && apt upgrade -y && apt install git -y
+```
+
 STEP 1: ``Copy the code then paste on termux``
 ```
-apt update && apt upgrade -y
 apt install -y curl wget gnupg ca-certificates software-properties-common
 apt install -y fonts-liberation \
 libatk-bridge2.0-0t64 libatk1.0-0t64 libgtk-3-0t64 \

@@ -8,9 +8,7 @@ apt update && apt upgrade -y && apt install proot-distro -y && proot-distro inst
 1. Update & Upgrade Ubuntu
 This code for install update and clone my repository
 ```
-apt update && apt upgrade -y
-apt install git -y
-apt install curl wget ca-certificates gnupg -y
+apt update && apt upgrade -y && apt install git -y && apt install curl wget ca-certificates gnupg -y
 ```
 2. Clone my repository and open the folder
 ```

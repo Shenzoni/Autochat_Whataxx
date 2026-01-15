@@ -1,10 +1,9 @@
-## CHROMIUM INSTALLATION 
-
 ## UBUNTU UPDATE & UPGRADE
 ```
 apt update -y && apt upgrade -y && apt install git -y
 ```
 
+## CHROMIUM INSTALLATION 
 STEP 1: ``Copy the code then paste on termux``
 ```
 apt install -y curl wget gnupg ca-certificates software-properties-common

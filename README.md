@@ -7,6 +7,7 @@
 - Device link login
 - Headless Chromium automation
 - License-key based execution
+- Dm my [[TELEGRAM]](https://t.me/pororyon) ``for licence key``
 ## INSTALLATION GUIDE 
 - Setup ubuntu on termux [UBUNTU](Doc/UBUNTU.md)
 
@@ -27,3 +28,5 @@ first you must edit file:
 
 Done happy run the script 🎉
 
+- IF YOU HAVE A QUESTION DON'T HESITATE TO ASK
+- CONTACT ME ON: [[TELEGRAM]](https://t.me/Pororyon)

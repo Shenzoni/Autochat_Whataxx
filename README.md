@@ -9,7 +9,6 @@
 - License-key based execution
 ## INSTALLATION GUIDE 
 - Setup ubuntu on termux [UBUNTU](Doc/UBUNTU.md)
-- Chromium installation [CHROMIUM](Doc/CHROMIUM.md)
 
 ## How to run ?
 To run the script

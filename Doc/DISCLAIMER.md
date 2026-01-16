@@ -1,11 +1,13 @@
-This project is for EDUCATIONAL and RESEARCH purposes only.
+📌 Disclaimer
 
-The author is NOT responsible for:
-- Account bans
-- Legal issues
-- Misuse of this software
-- Violation of WhatsApp Terms of Service
+This project is provided strictly for EDUCATIONAL and RESEARCH purposes only.
+The author does NOT take any responsibility for any consequences arising from the use of this software, including but not limited to:
+- Account suspension or permanent bans
+- Legal issues or violations of local/international laws
+- Misuse or abuse of the software
+- Any violation of WhatsApp Terms of Service
 
-This software is NOT affiliated with, authorized, maintained, sponsored or endorsed by WhatsApp or Meta.
+This software is NOT affiliated with, authorized, maintained, sponsored, or endorsed by WhatsApp or Meta Platforms, Inc.
+By using this software, you acknowledge and agree that you are solely responsible for how it is used and for any risks or damages that may occur.  
 
-Any usage of this software is at your own risk.
+Use this software at your own risk.

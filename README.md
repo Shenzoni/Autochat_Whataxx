@@ -13,17 +13,17 @@
 ## How to run ?
 To run the script
 first you must edit file:  
-1. ``numbers.csv`` enter all the numbers you want to send messages example;
+1. ``numbers.csv`` enter all the numbers you want to send messages example;  
 ``509774xxxx``  
 ``514733xxxx``
 
-2. ``message.txt`` type the message you want to send example;  
+3. ``message.txt`` type the message you want to send example;  
 ``hello world !!``
 
-3. Login your WhatsApp to create the session use script ``login.js {sessions name}`` example;  
+4. Login your WhatsApp to create the session use script ``login.js {sessions name}`` example;  
 ``node login.js s1``
 
-4. Run the script for chat use script ``run.js``
+5. Run the script for chat use script ``run.js``
 
 Done happy run the script 🎉
 
